@@ -1,0 +1,92 @@
+.signup-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .signup-left {
+    flex: 1;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Matches your image background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-left .illustration {
+    width: 70%;
+    max-width: 400px;
+    object-fit: contain;
+  }
+  
+  .signup-right {
+    flex: 1;
+    background-color: #f5f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .signup-form label {
+    margin-top: 16px;
+    display: block;
+    font-weight: 500;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    margin-top: 24px;
+    cursor: pointer;
+  }
+  
+  .signup-form .login-link {
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .signup-form .login-link a {
+    color: #4a00e0;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .signup-form .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .signup-form .success {
+    color: green;
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  

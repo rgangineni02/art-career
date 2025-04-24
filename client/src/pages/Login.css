@@ -1,0 +1,91 @@
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .login-left {
+    flex: 1;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-img {
+    width: 75%;
+    max-width: 400px;
+  }
+  
+  .login-right {
+    flex: 1;
+    background-color: #f7f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+  }
+  
+  .login-form {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .login-form label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: 500;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 12px;
+    background: #6a11cb;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background: #5011a9;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .success {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
